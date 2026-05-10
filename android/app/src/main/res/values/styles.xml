@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode
+    setting is off -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             the Flutter engine draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <!-- Theme applied to the Android Window as soon as the process has started.
+         This theme determines the color of the Android Window while your
+         Flutter UI initializes, as well as behind your Flutter UI while its
+         running.
+
+         This Theme is only used starting with V2 of Flutter's Android embedding. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+
+    <color name="payment_sdk_primary_color">#FFFFFF</color>
+    <color name="payment_sdk_secondary_color">#005DFF</color> <!-- slightly darker than primary -->
+    <color name="payment_sdk_primary_font_color">#000000</color>
+    <color name="payment_sdk_secondary_font_color">#666666</color>
+    <color name="payment_sdk_title_text_color">#000000</color>
+    <color name="payment_sdk_background_color">#FFFFFF</color>
+    <color name="payment_sdk_card_background_color">#EEEEEE</color>
+    <color name="payment_sdk_separators_color">#FFA000</color> <!-- darker version of yellow -->
+    <color name="payment_sdk_stroke_color">#3399FF</color>
+    <color name="payment_sdk_button_background_color">#007BFF</color>
+    <color name="payment_sdk_button_text_color">#FFFFFF</color>
+</resources>

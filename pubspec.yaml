@@ -1,0 +1,125 @@
+name: hi_net
+description: "Hi Net"
+
+version: 2.1.0+61
+
+environment:
+    sdk: ^3.9.2
+
+dependencies:
+    flutter:
+        sdk: flutter
+    cupertino_icons: ^1.0.8
+    bloc: ^9.1.0
+    flutter_bloc: ^9.1.1
+    flutter_svg: ^2.0.12
+    dartz: ^0.10.1
+    dio:
+    flutter_screenutil: ^5.9.3
+    pretty_dio_logger: ^1.3.1
+    shared_preferences: ^2.1.0
+    intl: ^0.19.0
+    cached_network_image: ^3.4.1
+    carousel_slider: ^5.0.0
+    pull_to_refresh: ^2.0.0
+    equatable: ^2.0.5
+    get_it: ^8.0.2
+    easy_localization: ^3.0.7
+    permission_handler: ^12.0.1
+    flutter_animate: ^4.5.2
+    share_plus: ^10.1.4
+    fluttertoast: ^8.2.10
+    url_launcher: ^6.3.1
+    animated_visibility: ^0.0.4
+    image_picker: ^1.1.2
+    shimmer: ^3.0.0
+    back_button_interceptor: ^8.0.4
+    percent_indicator: ^4.2.5
+    smooth_corner: ^1.1.1
+    qr_flutter: ^4.1.0
+    flutter_clickpay_bridge: ^2.4.5
+    firebase_core: ^4.4.0
+    firebase_messaging: ^16.1.1
+    money2: ^6.1.0
+    amazing_icons: ^3.1.1
+    package_info_plus: ^9.0.0
+    decimal: ^3.2.4
+    flutter_html: ^3.0.0
+    video_player: ^2.10.1
+    chewie: ^1.13.0
+    in_app_review: ^2.0.11
+    flutter_background_service: ^5.1.0
+    flutter_background_service_ios: ^5.0.3
+    flutter_background_service_android: ^6.3.0
+    flutter_local_notifications: ^20.1.0
+    path_provider: ^2.1.3
+    live_activities: ^2.4.6
+
+    nice_text_form:
+        git: https://github.com/ahmedjihad2024/nice_text_form.git
+
+dependency_overrides:
+    intl: ^0.20.0
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    mockito: ^5.6.1
+    bloc_test: ^10.0.0
+    build_runner: ^2.10.4
+    flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+    android: "ic_launcher"
+    ios: false
+    remove_alpha_ios: false
+    image_path: "assets/images/logo.jpeg"
+    min_sdk_android: 21
+    flutter_lints: ^5.0.0
+
+flutter:
+    uses-material-design: true
+    assets:
+        - assets/translations/
+        - assets/svg/
+        - assets/images/
+        - assets/fonts/lexend/
+
+    fonts:
+        - family: Lexend
+          fonts:
+              - asset: assets/fonts/lexend/Lexend-Black.ttf
+                weight: 900
+              - asset: assets/fonts/lexend/Lexend-Bold.ttf
+                weight: 700
+              - asset: assets/fonts/lexend/Lexend-ExtraBold.ttf
+                weight: 800
+              - asset: assets/fonts/lexend/Lexend-ExtraLight.ttf
+                weight: 200
+              - asset: assets/fonts/lexend/Lexend-Light.ttf
+                weight: 300
+              - asset: assets/fonts/lexend/Lexend-Medium.ttf
+                weight: 500
+              - asset: assets/fonts/lexend/Lexend-Regular.ttf
+                weight: 400
+              - asset: assets/fonts/lexend/Lexend-SemiBold.ttf
+                weight: 600
+              - asset: assets/fonts/lexend/Lexend-Thin.ttf
+                weight: 100
+
+        - family: IBMPlexSansArabic
+          fonts:
+              - asset: assets/fonts/IBMPlexSansArabic/IBMPlexSansArabic-Bold.ttf
+                weight: 700
+              - asset: assets/fonts/IBMPlexSansArabic/IBMPlexSansArabic-ExtraLight.ttf
+                weight: 200
+              - asset: assets/fonts/IBMPlexSansArabic/IBMPlexSansArabic-Light.ttf
+                weight: 300
+              - asset: assets/fonts/IBMPlexSansArabic/IBMPlexSansArabic-Medium.ttf
+                weight: 500
+              - asset: assets/fonts/IBMPlexSansArabic/IBMPlexSansArabic-Regular.ttf
+                weight: 400
+              - asset: assets/fonts/IBMPlexSansArabic/IBMPlexSansArabic-SemiBold.ttf
+                weight: 600
+              - asset: assets/fonts/IBMPlexSansArabic/IBMPlexSansArabic-Thin.ttf
+                weight: 100

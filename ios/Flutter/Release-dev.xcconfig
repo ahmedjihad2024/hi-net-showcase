@@ -1,0 +1,5 @@
+#include "Release.xcconfig"
+
+// Dev flavor configuration
+APP_DISPLAY_NAME = HiNet Dev
+PRODUCT_BUNDLE_IDENTIFIER = com.codeluminarity.hinet.dev
